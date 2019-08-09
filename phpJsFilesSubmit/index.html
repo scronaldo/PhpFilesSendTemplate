@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Atelier Seel</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+	<header>
+		<div class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-2 col-sm-2 col-xs-12">
+						<img src="img/logo.png" alt="logo.png" class="logo">
+					</div>
+					<div class="col-md-6 col-sm-7 col-xs-12">
+						<h3 class="title">
+							<span>Феррари - мощь, заключенная в красках</span><br>Эксклюзивные картины маслом с изображением машин Феррари
+						</h3>
+					</div>
+					<div class="col-md-4 col-sm-3">
+						<div class="block clearfix">
+
+							<div class="language">
+								<div class="dropdown">
+								  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="img/ru.png" alt="ru.png">
+								   <span class="lg">Rus</span>
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" aria-labelledby="dLabel">
+								    <li><img src="img/Eng.png" alt="eng.png" class="rus"><span>English</span></li>
+								    <li><img src="img/ru.png" alt="ru.png" class="rus">Русский</li>
+								    <li><img src="img/German.png" alt="ger.png" class="rus">German</li>
+								  </ul>
+								</div>
+							</div>
+
+							<a href="#" target="blank" class="inst hidden-xs">
+								<img src="img/instagram.png" alt="instagram.png">
+							</a>
+							<ul class="social clearfix">
+								<li><img src="img/sobaka.png" alt="sobaka.png">mail@gmail.com</li>
+								<li><img src="img/phone.png" alt="phone.png">0157 37598630</li>
+								<li class="clock"><img src="img/clock.png" alt="clock.png"><div class="clock__text">
+									<span>Mo - Fr:</span> 18:00 bis 20:00<br><span>Sa: </span>10:00 bis 20:00
+								</div></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- <div class="col-md-2">
+						<button class="act">Главная</button>
+					</div> -->
+					<div class="col-md-12">
+						<nav>
+						<ul class="menu clearfix">
+							<li class="menu__item">
+								<a class="element" href="#">Главная</a>
+							</li>
+							<li class="menu__item">
+								<a class="element" href="#">Галерея</a>
+							</li>
+							<li class="menu__item">
+								<a class="element" href="#">Цены</a>
+							</li>
+							<li class="menu__item">
+								<a class="element" href="#">Доставка/Оплата</a>
+							</li>
+							<li class="menu__item share">
+								<a class="element" href="#">Aкция</a>
+							</li>
+							<li class="menu__item">
+								<a class="element" href="#">Bопросы</a>
+							</li>
+							<li class="menu__item">
+								<a class="element" href="#">O мастере</a>
+							</li>
+							<li class="menu__item">
+								<a class="element cont" href="#">Kонтакты</a>
+							</li>
+						</ul>
+					</nav>
+					</div>
+				</div>
+				<div class="bars"><i class="fa fa-bars"></i></div>
+
+				<!-- <div class="row">
+					<div class="col-md-12"> -->
+						<nav class="nav-bar">
+						<ul class="menu menu-bar clearfix">
+							<li class="menu__item menu__item-bar">
+								<a href="#">Главная</a>
+							</li>
+							<li class="menu__item menu__item-bar">
+								<a href="#">Галерея</a>
+							</li>
+							<li class="menu__item menu__item-bar">
+								<a href="#">Цены</a>
+							</li>
+							<li class="menu__item menu__item-bar">
+								<a href="#">Доставка/Оплата</a>
+							</li>
+							<li class="menu__item menu__item-bar">
+								<a href="#">Aкция</a>
+							</li>
+							<li class="menu__item menu__item-bar">
+								<a href="#">Bопросы</a>
+							</li>
+							<li class="menu__item menu__item-bar">
+								<a href="#">O мастере</a>
+							</li>
+							<li class="menu__item menu__item-bar">
+								<a href="#">Kонтакты</a>
+							</li>							
+						</ul>
+						<div class="close">X</div>
+					</nav>
+					<!-- </div>
+				</div> -->
+
+			</div>
+		</div>
+		<div class="first">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+					<div class="div clearfix">
+						<div class="offer">
+							<h1>Картина феррари со спецэффектами</h1>
+						<h3>Искусство, в которое влюбляешься - картина со звуком мотора Ferrari</h3>
+						</div>
+					</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<!-- <img class="equalaser" src="img/equa-bg.png" alt="equa-bg.png"> -->
+						<div class="equalaser-block">
+							<div class="block-left">
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>							
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">								
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+							</div>
+							<div class="block-right">
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>							
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">								
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+								<div class="elem-column">
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+									<div class="elem"></div>
+								</div>
+							</div>
+
+
+
+						</div>
+
+					</div>
+				</div>
+				<div class="btn-engine">
+					<audio id="sound"><source src="audio/777.mp3"></source></audio>
+					<img id="music" src="img/btn.png" alt="btn.png">
+					<img class="forma" src="img/Forma.png" alt="form.png">
+				</div>
+				<div class="shadow">
+					<img src="img/shadow2.png" alt="shadow2.png">
+				</div>
+			</div>
+			<div class="border1 hideBrdr"></div>
+			<div class="border2 hideBrdr"></div>			
+		</div>
+	</header>
+	<section class="second">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Уникальность в каждой детали...</h2>
+				</div>
+			</div>
+			<div class="row">
+				<ul class="gallery clearfix">
+					<div class="col-md-4 col-sm-4">
+						<li class="gallery__item car1">
+							<p>Ручная работа</p>
+							<img src="img/car1.png" alt="car1.png">
+						</li>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<li class="gallery__item car2">
+							<p>Единственный экземпляр</p>
+							<img src="img/car2.png" alt="car2.png">
+						</li>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<li class="gallery__item car3">
+							<p> Масленные краски</p>
+							<img src="img/car3.png" alt="car3.png">
+						</li>
+					</div>
+				</ul>
+				<div class="btn-bg"><img src="img/btn2.png" alt="btn2.png">
+					<a href="#"><div class="btn-bg-text">
+						<span class="btn-bg-textin">Галерея</span>
+					</div></a>
+				</div>				
+			</div>
+			<div class="border3 hideBrdr"><img class="decor-border3" src="img/decor.png" alt="decor.png"></div>
+		</div>
+	</section>
+	<section class="third">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Достойное обрамление для стального коня!</h2>
+					<div class="art-text">Рама со звуком - изобретение художника!</div>
+					<p>Мастер изобрел раму, которая сможет передать характер. Вашей Феррари, подчеркнет ее формы и особенность.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="car-screen">
+						<img class="car-screen__left" src="img/M.Seel_1.png" alt="M.Seel_1.png">
+						<img class="bird" src="img/bird.png" alt="bird.png">
+						<ul class="car-screen__block car-screen__block_one">
+							<li class="car-screen__block_li clearfix">
+								<img src="img/circle1.png" alt="circle1.png">
+								<div class="car-screen__block_text">
+									<span>Нержавеющая сталь</span><br>• Декоративные колпачки<br>• Надежные крепления
+								</div>
+								<div class="border border-one"></div>
+							</li>
+						</ul>
+						<ul class="car-screen__block car-screen__block_two">
+							<li class="car-screen__block_li clearfix">
+								<img src="img/circle2.png" alt="circle2.png">
+								<div class="car-screen__block_text">
+									<span>Два встроенных динамика</span><br>• Декоративные колпачки<br>• Надежные крепления
+								</div>
+								<div class="border border-two"></div>
+							</li>
+						</ul>
+						<ul class="car-screen__block car-screen__block_three">
+							<li class="car-screen__block_li clearfix">
+								<img class="car-screen__block_img" src="img/circlecircle.png" alt="circlecircle.png">
+								<div class="car-screen__block_text">
+									<span>Кнопка старта</span><br>• Кнопка старта, подключенная к аккуму лятору<br>• Воспроизведение ревущего мотора<br>• Один полный аккумулятор - более 1.000 воспроизведений
+								</div>
+								<div class="border border-three"></div>
+							</li>
+						</ul>
+						<ul class="car-screen__block car-screen__block_fourth">
+							<li class="car-screen__block_li clearfix">
+								<img src="img/circle4.png" alt="circle3.png">
+								<div class="car-screen__block_text">
+									<span>Настоящий холст</span><br>• Рисунок выполнен на настоящем холсте<br>• Оригинальная техника исполнения<br>• Подпись автора
+								</div>
+								<div class="border border-fourth"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="border4 hideBrdr"><img class="decor-border4" src="img/decor.png" alt="decor.png"></div>
+		</div>
+	</section>
+	<section class="fourth">
+		<div class="container">
+			<div class="border5 hideBrdr"></div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="special">Что делает картину оcoбeнной?</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="decor-block">
+						<div class="decor-block__item">
+							<img src="img/decor.png" alt="decor.png">
+							<p class="decor-block__p">Точная передача деталей</p>
+						</div>
+						<div class="decor-block__item">
+							<img src="img/decor.png" alt="decor.png">
+							<p class="decor-block__p">Настоящий голос двигателя</p>
+						</div>
+						<div class="decor-block__item">
+							<img src="img/decor.png" alt="decor.png">
+							<p class="decor-block__p">Соблюдение пропорций</p>
+						</div>
+						<div class="decor-block__item">
+							<img src="img/decor.png" alt="decor.png">
+							<p class="decor-block__p">Картина - уменьшенная копия авто</p>
+						</div>
+						<div class="decor-block__item">
+							<img src="img/decor.png" alt="decor.png">
+							<p class="decor-block__p">Сертификат подлинности</p>
+						</div>
+						<div class="decor-block__item">
+							<img src="img/decor.png" alt="decor.png">
+							<p class="decor-block__p">Печать ателье</p>
+						</div>
+						<div class="decor-block__item">
+							<img src="img/decor.png" alt="decor.png">
+							<p class="decor-block__p">Произведение искусства не имеет аналогов</p>
+						</div>
+						<div class="decor-block__item">
+							<img src="img/decor.png" alt="decor.png">
+							<p class="decor-block__p">Вы приобретаете единственный экземпляр</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="btn-bg"><img src="img/btn2.png" alt="btn2.png">
+						<a href="#">
+							<div class="btn-bg-text">
+								<span class="btn-bg-textin">Галерея</span>
+							</div>
+						</a>
+					</div>				
+				</div>
+			</div>
+			<img class="log" src="img/picture.png" alt="picture.png">
+			<div class="border6 hideBrdr"></div>
+		</div>
+	</section>
+	<section class="fifth">
+		<div class="container">
+			<div class="border7 hideBrdr"><img class="decor-border7" src="img/decor.png" alt="decor.png"></div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Причины купить картину</h2>
+				</div>
+			</div>
+			<div class="row">
+				<ul class="reason">
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<li class="reason__item">
+							<img src="img/reason1.png" alt="reason1.png">
+							<div class="reason__text">
+								Зима - не повод забыть о своей богине. Наслаждайтесь урчанием мотора в любой сезон, не выходя из дома.
+							</div>
+						</li>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<li class="reason__item">
+							<img src="img/reason2.png" alt="reason1.png">
+							<div class="reason__text">
+								Вы обожаете свою богиню? Когда-то были ее обладателем? Хотите продать, но дорожите воспоминаниями?
+							</div>
+						</li>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-12">
+						<li class="reason__item">
+							<img src="img/reason3.png" alt="reason1.png">
+							<div class="reason__text">
+								Звук будильника - не то, с чего нужно начинать день. Нажмите на кнопку START и услышите приятные уху вибрации.
+							</div>
+						</li>
+					</div>
+				</ul>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="btn-bg act-bg"><img src="img/btn2.png" alt="btn2.png">
+						<a href="#">
+							<div class="btn-bg-text act-bg-text">
+								<span class="btn-bg-textin act-bg-textin reason-btn">Стоимость работ</span>
+							</div>
+						</a>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="sixth">
+		<div class="container">
+			<div class="border8 hideBrdr"></div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<h2>Как получить картину</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<ul class="get clearfix">
+						<li class="get__item">
+							<i class="fa fa-caret-right get__i"></i>
+								<div class="get__block get-border">
+									<div class="get__circle">
+									1
+									</div>
+								</div>
+							<p class="get__text">Заявка</p>
+						</li>
+						<li class="get__item">
+							<i class="fa fa-caret-right get__i"></i>
+								<div class="get__block">
+									<div class="get__circle">
+									2
+									</div>
+								</div>
+							<p class="get__text">Обсуждение деталей</p>
+						</li>
+						<li class="get__item">
+							<i class="fa fa-caret-right get__i"></i>
+								<div class="get__block">
+									<div class="get__circle">
+									3
+									</div>
+								</div>
+							<p class="get__text">Создание картины</p>
+						</li>
+						<li class="get__item">
+							<i class="fa fa-caret-right get__i"></i>
+								<div class="get__block">
+									<div class="get__circle">
+									4
+									</div>
+								</div>
+							<p class="get__text">Создание рамы</p>
+						</li>
+						<li class="get__item">
+							<i class="fa fa-caret-right get__i"></i>
+								<div class="get__block">
+									<div class="get__circle">
+									5
+									</div>
+								</div>
+							<p class="get__text">Подготовка к транспортировке</p>
+						</li>
+						<li class="get__item">
+							<i class="fa fa-caret-right get__i"></i>
+								<div class="get__block">
+									<div class="get__circle">
+									6
+									</div>
+								</div>
+							<p class="get__text">Транспортировка</p>
+						</li>
+						<li class="get__item">
+								<div class="get__block">
+									<div class="get__circle">
+									7
+									</div>
+								</div>
+							<p class="get__text">Запись звука</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="btn-bg"><img src="img/btn2.png" alt="btn2.png">
+						<a href="#">
+							<div class="btn-bg-text">
+								<span class="btn-bg-textin reason-btn get__btn">Подробнее</span>
+							</div>
+						</a>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="seventh">
+		<div class="container">
+			<div class="border9 hideBrdr"><img class="decor-border7" src="img/decor.png" alt="decor.png"></div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h2 class="order">
+						Закажи прямо сейчас оригинальный подарок - картину с изображением Феррари
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="box">
+						<img class="box__img" src="img/box.png" alt="box.png">
+						<div class="box__text">Картина с изображением Феррари - это оригинальный подарок для любителей авто данной марки, Ваших друзей, близких. Она покорит даже тех, кто далек от темы желез ных коней - точные мазки, совершенство форм, рисунок будто оживает при прикосновении.
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-0">
+					<div class="btn-bg order-btn"><img src="img/btn2.png" alt="btn2.png">
+						<a href="#">
+							<div class="btn-bg-text">
+								<span class="btn-bg-textin reason-btn get__btn">Заказать сертификат</span>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="box box-right">
+						<img class="box__img" src="img/little-car.png" alt="little-car.png">
+						<div class="box__text">Благодаря стильной раме со звуковыми эффектами, Вы полностью ощутите энергию и неукротимость спортивной машины. Прикоснитесь к холсту, закройте глаза и нажмите на кнопку воспроизведения. Буря непередаваемых эмоций и ощущений гарантированы.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="btn-bg order-btn order-btn_down btn-order"><img src="img/btn2.png" alt="btn2.png">
+						<a href="#">
+							<div class="btn-bg-text">
+								<span class="btn-bg-textin reason-btn get__btn">Заказать сертификат</span>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<img class="bg-block" src="img/block7-bg.png" alt="block7-bg.png">
+		</div>
+	</section>
+	<section class="eighth">
+		<div class="container">
+			<div class="border10 hideBrdr"><img class="decor-border10" src="img/decor.png" alt="decor.png"></div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h2 class="master">Коротко о мастере</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-5 col-sm-5 col-xs-12">
+					<div class="photo">
+						<img class="yellow" src="img/yellow-bg.png" alt="yellow-bg.png">
+						<img class="master-photo" src="img/master.png" alt="master.png">
+					</div>
+				</div>
+				<div class="col-md-7 col-sm-7 col-xs-12">
+					<div class="about">
+						<h3>В руках умелого мастера картина оживает …</h3>
+						<div class="about__text about__text_up">
+							Максим, инженер по образованию, пос ле просмотра фильмао великом Энцо Феррари, проникся темой спортивных болидов и в порыве чувств нарисовал свой первый эскиз. Набросок впечатлил друзей и родных, что дало толчок к большему. Так началась практика по техникам рисования, знакомствос известными художниками, долгие часы упорного труда. Как результат - картины, поражающие взор, не оставляющие равнодушным.
+						</div>
+						<div class="about__text about__text_down">
+							Образ - половина дела. Вдохнуть жизнь, передать полный поток энергии неукротимого Феррари помогло собственное изобретение мастера - рама с динамиками и возможностью записи ревущего мотора. Вам представляется уникальная возможностьполучить картину, оживающую после прикосновения. Искусство, эмоции и адреналин, заключенные в железо.
+						</div>
+						<div class="btn-bg master-btn"><img src="img/btn2.png" alt="btn2.png">
+							<a href="#">
+								<div class="btn-bg-text">
+									<span class="btn-bg-textin reason-btn get__btn">Подробнее</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ninth">
+		<div class="container">
+		<div class="border11 hideBrdr"><img class="decor-border11" src="img/decor.png" alt="decor.png"></div>
+			<div class="wrap">
+				<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<h2 class="picture-title">Закажите картину с изображением Вашей машины прямо сейчас!</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="picture-text">Для этого нужно связаться с мастером и прислать фото авто.  Образ со звуковым сопровождением напомнит о былом, придаст уверенности или наоборот, умиротворения, поднимет настроение. Вы в шаге от своей мечты, и Максим поможет Вам ее достичь </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<form enctype="multipart/form-data" class="ajaxsend" method="post">
+						<input type="text" placeholder="Ваше имя" name="fullName" required="">
+						<div class="mail">
+							<input type="email" placeholder="Ваша эл. почта" name="email" required>
+							<i class="fa fa-asterisk"></i>
+						</div>
+						<textarea placeholder="Ваше сообщение"  name="msg"></textarea>
+						 <input type="file" name="fileFF[]" multiple id="fileFF" class="w100"   accept="image/*, audio/*, .xls,.xlsx, .doc, .docx, .zip, .pdf, .txt,">
+						<div class="input clearfix">
+							<input class="check" type="checkbox" checked>
+							<a href="#" class="politic">Политика конфиденциальности</a>
+							<span><i class="fa fa-asterisk"></i> - обязательно</span>
+						</div>
+						<div class="btn-bg master-btn form-btn"><img src="img/btn2.png" alt="btn2.png">
+							<a href="#" id="buttonid">
+								<div class="btn-bg-text">
+									<span class="btn-bg-textin reason-btn get__btn">Отправить</span>
+								</div>
+							</a>
+						</div>
+					</form>					
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="tv">
+						<img class="tv-img" src="img/tv.png" alt="tv.png">
+						<img class="tv-img-art" src="img/Artboard.png" alt="Artboard.png">
+					</div>
+				</div>
+			</div>
+			</div>
+			
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="border1 hideBrdr"></div>
+			<div class="wrap">
+				<div class="row">
+				<div class="col-md-9 col-sm-6">
+					<img class="logo-footer" src="img/logo-futerr.png" alt="logo-futerr.png">
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<a href="#" target="blank" class="inst inst-footer">
+						<img src="img/instagram_PNG11.png" alt="instagram_PNG11.png">
+					</a>
+					<ul class="social footer-social clearfix">
+						<li><img src="img/mail.png" alt="mail.png">mail@gmail.com</li>
+						<li><img src="img/trubka.png" alt="trubka.png">0157 37598630</li>
+						<li class="clock clock-footer"><img src="img/time.png" alt="time.png"><div class="clock__text clock-right">
+							<span class="time-text">Mo - Fr:</span> 18:00 bis 20:00<br><span class="time-text">Sa: </span>10:00 bis 20:00
+						</div></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+					<!-- <div class="col-md-2">
+						<button class="act">Главная</button>
+					</div> -->
+					<div class="col-md-12">
+						<nav>
+						<ul class="menu footer-menu clearfix">
+							<li class="menu__item">
+								<a href="#">Главная</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">Галерея</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">Цены</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">Доставка/Оплата</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">Aкция</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">Bопросы</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">O мастере</a>
+							</li>
+							<li class="menu__item">
+								<a href="#">Kонтакты</a>
+							</li>
+						</ul>
+					</nav>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<a href="#" class="politic politic-footer">Политика конфиденциальности</a>
+					</div>
+				</div>
+			</div>
+				<div class="mountains">
+					<img src="img/mountains-bg.png" alt="mountains-bg.png">
+				</div>
+		</div>
+	</footer>
+	  <div class="done" id="done">
+        <p>Заявка отправлена</p>
+    </div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	    <script src="js/form.js"></script>
+	<script src="https://use.fontawesome.com/2da4ffd3c8.js"></script>
+	<script src="js/main.js"></script>
+
+
+	<!-- <div style="border:1px dashed green;width:400px;height:250px;
+	border-left: none;border-top:none;border-radius: 0 0 50px 0;margin-left: 90px"></div>
+	<div style="border:1px dashed green;width:400px;height:250px;
+	border-right: none;border-bottom:none;border-radius: 100px 0 0 0;margin-top:-1px"></div> -->
+</body>
+</html>
